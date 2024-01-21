@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "iphone",
+    "image": "",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eum rem dolores repellat explicabo atque aperiam cum! Sequi, velit."
+  },
+  {
+    "id": "2",
+    "title": "xiaomi",
+    "image": "",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eum rem dolores repellat explicabo atque aperiam cum! Sequi, velit."
+  },
+  {
+    "id": "3",
+    "title": "samsung",
+    "image": "",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eum rem dolores repellat explicabo atque aperiam cum! Sequi, velit."
+  },
+  {
+    "id": "4",
+    "title": "huawei",
+    "image": "",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eum rem dolores repellat explicabo atque aperiam cum! Sequi, velit."
+  },
+  {
+    "id": "5",
+    "title": "one plus",
+    "image": "",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis eum rem dolores repellat explicabo atque aperiam cum! Sequi, velit."
+  }
+]
