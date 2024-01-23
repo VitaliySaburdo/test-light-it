@@ -9,9 +9,11 @@ export const ProductItem = ({
 }) => {
   return (
     <>
-      <h2>{title}</h2>
-      <img src={image} alt={title} />
-      <p>{text}</p>
+      <div>
+        <h2>{title}</h2>
+        <img src={image} alt={title} width={50} />
+        <p>{text}</p>
+      </div>
     </>
   );
 };

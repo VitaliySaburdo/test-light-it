@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/products" element={<ProductList />} />
-        <Route path="/products/:productId" />
+        <Route path="/" element={<ProductList />} />
+        <Route path="/:productId" />
       </Routes>
     </>
   );
