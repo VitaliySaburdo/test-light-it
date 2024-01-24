@@ -9,11 +9,11 @@ export const ProductList = () => {
         {products.map((product) => {
           const { id, title, image, text } = product;
           return (
-            <Link to={`${id}`}>
-              <li key={id}>
+            <li key={id}>
+              <Link to={`${id}`}>
                 <ProductItem title={title} image={image} text={text} />
-              </li>
-            </Link>
+              </Link>
+            </li>
           );
         })}
       </ul>
