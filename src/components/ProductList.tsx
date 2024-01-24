@@ -7,11 +7,11 @@ export const ProductList = () => {
     <>
       <ul>
         {products.map((product) => {
-          const { id, title, image, text } = product;
+          const { id, title, image } = product;
           return (
             <li key={id}>
               <Link to={`${id}`}>
-                <ProductItem title={title} image={image} text={text} />
+                <ProductItem title={title} image={image} />
               </Link>
             </li>
           );
