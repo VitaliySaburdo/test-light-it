@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import products from "../data/products.json";
+import { products } from "../data/products";
 import { ProductItem } from "./ProductItem";
 
 export const ProductList = () => {
   return (
     <>
-      <ul>
+      <ul style={{ display: "grid", gridTemplateColumns: "5fr" }}>
         {products.map((product) => {
           const { id, title, image } = product;
           return (
