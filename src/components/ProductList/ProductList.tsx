@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { products } from "../data/products";
-import { ProductItem } from "./ProductItem";
+import { products } from "../../data/products";
+import { ProductItem } from "../ProductItem/ProductItem";
+import { List } from "./ProductItem.styled";
 
 export const ProductList = () => {
   return (
     <>
-      <ul style={{ display: "grid", gridTemplateColumns: "5fr" }}>
+      <List>
         {products.map((product) => {
           const { id, title, image } = product;
           return (
@@ -16,7 +17,7 @@ export const ProductList = () => {
             </li>
           );
         })}
-      </ul>
+      </List>
     </>
   );
 };

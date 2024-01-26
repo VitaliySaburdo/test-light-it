@@ -1,9 +1,15 @@
-import { ProductList } from "../components/ProductList";
+import { Container } from "../components/Container/Container";
+import { ProductList } from "../components/ProductList/ProductList";
+import { Section } from "../components/Section/Section";
 
 export const Home = () => {
   return (
     <>
-      <ProductList />
+      <Section>
+        <Container>
+          <ProductList />
+        </Container>
+      </Section>
     </>
   );
 };
