@@ -1,3 +1,5 @@
+import { Img } from "./ProductItem.styled";
+
 export const ProductItem = ({
   title,
   image,
@@ -8,7 +10,7 @@ export const ProductItem = ({
   return (
     <>
       <div className="mx-20">
-        <img src={image} alt={title} width={50} />
+        <Img src={image} alt={title} width={50} />
       </div>
     </>
   );
